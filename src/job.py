@@ -37,12 +37,12 @@ samp = filter_for_category(total_words)
 sample_list = [element + '\n' for element in samp]
 
 # Creating new file to store filtered data
-output_file = open("filtered_output.txt", "w")
+output_file = open(r"C:\Users\ASUS\PycharmProjects\finance-python\output\filtered_output.txt", "w")
 output_file.writelines(sample_list)
 output_file.close()
 
 # Reading the to check the output
-temp = open("filtered_output.txt", 'r')
+temp = open(r"C:\Users\ASUS\PycharmProjects\finance-python\output\filtered_output.txt", 'r')
 temp_data = temp.read()
 new_word = temp_data.split("\n")
 print("The Filtered Output for category UBER : \n" , new_word)
