@@ -1,5 +1,6 @@
 # Write a code to read the file from input folder with the file name
 # and write the file into a new folder called as output in root without using pandas
+#dummy
 
 def basic_word_count(path: str):
     '''
